@@ -123,6 +123,11 @@ header p {
     font-style: italic;
 }
 
+section.image-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
