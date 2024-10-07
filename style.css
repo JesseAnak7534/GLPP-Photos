@@ -123,10 +123,6 @@ header p {
     font-style: italic;
 }
 
-section.image-container h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #4CAF50;
 }
 .gallery {
     display: flex;
@@ -161,6 +157,13 @@ section.image-container h2 {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+/* New section title for the image gallery */
+section.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50; /* Matches the video section title color */
+    
 /* Video section styles */
 section.videos {
     text-align: center;
