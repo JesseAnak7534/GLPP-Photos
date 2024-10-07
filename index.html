@@ -14,16 +14,17 @@
     </header>
 
     <section class="gallery">
-    	<h2>Field Gallery</h2>
-        <div class="image-container">
-            <img src="images/20240927_134805.jpg" alt="Field Photo 1">
-            <div class="caption">Keta Municipality</div>
-        </div>
-        <div class="image-container">
-            <img src="images/20240927_134823.jpg" alt="Field Photo 2">
-            <div class="caption">Keta Municipality</div>
-        </div>
-        <div class="image-container">
+        <h2 class="toggle" data-target="gallery-content">Field Gallery (Click to View)</h2>
+        <div id="gallery-content" class="content">
+            <div class="image-container">
+                <img src="images/20240927_134805.jpg" alt="Field Photo 1">
+                <div class="caption">Keta Municipality</div>
+            </div>
+            <div class="image-container">
+                <img src="images/20240927_134823.jpg" alt="Field Photo 2">
+                <div class="caption">Keta Municipality</div>
+            </div>
+            <div class="image-container">
             <img src="images/20240920_093406.jpg" alt="Field Photo 3">
             <div class="caption">Akatsi Municipality</div>
         </div>
@@ -122,16 +123,19 @@
         <div class="image-container">
             <img src="images/Ketu South.jpg" alt="Field Photo 4">
             <div class="caption">Ketu South Municipality</div>
+        <!-- Add remaining images here -->
         </div>
     </section>
     <section class="videos">
-    <h2>Field Videos</h2>
-    <div class="video-container">
-        <iframe width="315" height="560" src="https://www.youtube.com/embed/NsqvYxSbDG8" title="Language of Education Ghana Field Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="315" height="560" src="https://www.youtube.com/embed/-1XbNUKnLWw" title="Language of Education Ghana Field video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <source src="videos/myvideo.mp4" type="video/mp4">
-    </div>
-     </section>
+        <h2 class="toggle" data-target="video-content">Field Videos (Click to View)</h2>
+        <div id="video-content" class="content">
+            <div class="video-container">
+                <iframe width="315" height="560" src="https://www.youtube.com/embed/NsqvYxSbDG8" title="Language of Education Ghana Field Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="315" height="560" src="https://www.youtube.com/embed/-1XbNUKnLWw" title="Language of Education Ghana Field video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2024 Language of Education, Ghana. All rights reserved.</p>
     </footer>
